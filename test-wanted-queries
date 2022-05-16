@@ -1,0 +1,21 @@
+describe("Wanted Queries Tests", () => {
+  test('check for signin', () => {
+    expect(field.required).toBe(true)
+  })
+
+  test('check for warrants', () => {
+    expect(results).toBe(true)
+  })
+
+  test('check for invalid length error', () => {
+    expect(field.length).toBe(false)
+  })
+
+  test('check for invalid date error', () => {
+    expect(date).toBe(false)
+  })
+
+  test('check for sanity', () => {
+    expect(true).toBe(true)
+  })
+})
